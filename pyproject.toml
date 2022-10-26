@@ -1,0 +1,14 @@
+[project]
+#name = ""
+#version = "0.1.0b"
+dependencies = ["jax[cuda]"]
+
+[build-system]
+requires = ["setuptools", "numpy", "wheel"]
+
+#[tool.setuptools]
+#packages = 
+
+
+[project.optional-dependencies]
+test = ["pytest", "flake8", "bandit", "mypy", "pylint", "coverage"]
